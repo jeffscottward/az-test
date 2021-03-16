@@ -1,0 +1,26 @@
+{
+  "name": "typescript-simply-theme-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "export": "rm -rf .next out && next build && next export",
+    "deploy": "cd out && surge && cd .."
+  },
+  "dependencies": {
+    "@theme-ui/components": "^0.3.1",
+    "@theme-ui/css": "^0.3.1",
+    "animate.css": "^4.1.1",
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "@types/theme-ui": "^0.3.7",
+    "typescript": "^4.0.5"
+  }
+}
